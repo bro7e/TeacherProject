@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>منصة المعلم المحترف - PRO</title>
+    <style>
+        body { 
+            font-family: 'Tajawal', sans-serif; 
+            background-color: #0b0f19; 
+            color: #e2e8f0; 
+        }
+        .modern-gradient { background: linear-gradient(135deg, #161c2c 0%, #0b0f19 100%); }
+        .neon-glow { box-shadow: 0 0 15px rgba(139, 92, 246, 0.1); }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(139, 92, 246, 0.15);
+            border-color: rgba(139, 92, 246, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="bg-[#0b0f19]/80 backdrop-blur-md border-b border-slate-800 p-4 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-8">
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-violet-600 rounded-lg flex items-center justify-center text-white font-bold shadow-lg shadow-violet-500/20">🚀</div>
+                    <span class="text-xl font-black text-white">منصة الأستاذ أحمد <span class="text-violet-400 text-xs">PRO</span></span>
+                </div>
+            </div>
+            <div class="flex gap-2">
+                <button class="text-xs bg-violet-600 text-white px-4 py-2 rounded-full font-bold hover:bg-violet-500 transition">تسجيل الدخول</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto py-12 px-6">
+        <div class="modern-gradient rounded-[3rem] p-12 text-center mb-12 border border-slate-800 shadow-xl neon-glow">
+            <h1 class="text-4xl md:text-5xl font-black text-white mb-4">مرحباً بكم في منصة الأستاذ أحمد</h1>
+            <p class="text-slate-400 max-w-xl mx-auto">تعليم متطور بأسلوب تقني حديث وسهل الوصول.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-[#111827] rounded-[2rem] p-8 border border-slate-800 card-hover transition-all">
+                <h3 class="text-xl font-black text-white mb-4">الموارد المتاحة</h3>
+                <div class="bg-[#161c2c] rounded-2xl p-6 border border-slate-800">
+                    <h4 class="font-bold text-violet-300">📄 أساسيات الرياضيات</h4>
+                    <p class="text-xs text-slate-500">مذكرة شاملة ومطورة</p>
+                </div>
+            </div>
+            <div class="bg-[#111827] rounded-[2rem] p-8 border border-slate-800 card-hover transition-all">
+                <h3 class="text-xl font-black text-white mb-4">آخر الأخبار</h3>
+                <p class="text-sm text-slate-400">تابعونا لمعرفة كل جديد في عالم التقنية والتعليم.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
